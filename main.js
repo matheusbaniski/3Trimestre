@@ -37,11 +37,18 @@ document.querySelectorAll('.tecla');
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 ListaDeTeclas[0].onclick = tocaSomPom;
-ListaDeTeclas[0].onclick = tocaSomClap;
-ListaDeTeclas[0].onclick = tocaSomTim;
-ListaDeTeclas[0].onclick = tocaSomPuff;
-ListaDeTeclas[0].onclick = tocaSomSplash;
-ListaDeTeclas[0].onclick = tocaSomToim;
-ListaDeTeclas[0].onclick = tocaSomPsh;
-ListaDeTeclas[0].onclick = tocaSomTic;
-ListaDeTeclas[0].onclick = tocaSomTom;
+ListaDeTeclas[1].onclick = tocaSomClap;
+ListaDeTeclas[2].onclick = tocaSomTim;
+ListaDeTeclas[3].onclick = tocaSomPuff;
+ListaDeTeclas[4].onclick = tocaSomSplash;
+ListaDeTeclas[5].onclick = tocaSomToim;
+ListaDeTeclas[6].onclick = tocaSomPsh;
+ListaDeTeclas[7].onclick = tocaSomTic;
+ListaDeTeclas[8].onclick = tocaSomTom;
+
+//estrair de repetiçao - Enquanto
+while(contador <ListaDeTeclas.length) {
+  let contador = 0;
+  ListaDeTeclas[contador].onclick= tocaSomPom;
+  contador = contador+1;
+}
