@@ -6,7 +6,7 @@ function tocaSom(idElementoAudio) {
       alert('Elemento não encontrado');
     }
 //se o elemento existir, a funçao play daquele elemento acontecera, ou seja, a tecla sera reproduzida. 
-    if(elemento && elemento.localName === 'Audio'){
+    if(elemento && elemento.localName === 'audio'){
       elemento.play();
         }else {
           alert('Elemento nao encontrado');
@@ -41,7 +41,7 @@ for(let contador = 0;contador < ListaDeTeclas.length;contador++){
   tecla.onkeyup = function () {
   tecla.classList.remove ('ativa');
   };
-  console.loh(instrumento);
+  console.log(instrumento);
   console.log(contador);
 }
 
